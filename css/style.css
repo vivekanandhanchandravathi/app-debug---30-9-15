@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+font-family:comic;
+src:url(font/Dosis-Light.ttf); 
+}
+@font-face {
+font-family:comicbold;
+src:url(font/Dosis-Bold.ttf); 
+}
+@font-face {
+font-family:comicboldbold;
+src:url(font/Dosis-Medium.ttf); 
+}
+body {
+background-color:#FFFFFF;
+font-family:comic;
+
+}
+
+.back_color
+{
+	background-color:#FFF;
+}
+.header_border
+{
+	border:none;
+}
+#header_color
+{
+	background-color:#442125;
+}
+.logos
+{
+	float:none;
+	text-align:center;
+	padding-top:1%;
+	padding-bottom:1%
+}
+.logos img
+{
+	width:40px;
+	height:40px;
+}
+
+    .logos
+{
+	float:none;
+	text-align:center;
+	padding-top:1%;
+	padding-bottom:1%
+}
+.logos img
+{
+	width:50px;
+	height:50px;
+}
+}
+.ui-icon-home-m {
+	background-image:url(../img/home/home.png);
+	
+}
+.ui-icon-contact-m {
+	background-image: url("../img/home/contact.png");
+}
+.body_slider_img
+{
+	margin:0;
+	background-size:cover;	
+	overflow:hidden;
+}
+.about_con
+{
+	text-align:center;
+	padding:0px 0 20px 0;
+}
+ .text-slider{
+	background: url(../img/home/slider.jpg) no-repeat;
+	background-size: 100% 100% !important;
+	height:200px;
+}
+.testimonial-grids {
+	margin: 1em 0;
+}
+.testimonial-grid a:hover{
+	color:#F36EA7;
+}
+.testimonial-grid:nth-child(3){
+	margin-right:0px;
+}
+.testimonial-grid{
+	float:left;
+	width:31.33%;
+	margin-right:2%;
+	text-align:center;
+	font-family:comic;
+}
+
+placeholder {
+color:#FFF;
+}
+.create
+{
+	text-decoration:none;
+	color:#027bc2;
+}
+
+.bck_img
+{	
+background-color:#45c3fe;
+background:#45c3fe;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.index_menu
+{
+	margin:0 auto;
+	width:80%;
+	
+}
+.index_menu_icon
+{
+	margin:0 auto;
+	width:80%;
+	height:auto;	
+}
+.form1
+{
+	float:left;
+	width:20%;
+}
+.form2
+{
+	float:left;
+	width:80%;
+}
+.ui-input-text{
+    border: none !important;
+    box-shadow: none !important;
+	 background: url(../../EVx21-09-2015/img/formbck.png) 1% no-repeat !important;
+ background-color: #56c7ff !important;
+ outline: 0
+}
+.bor_form
+{
+	border-bottom:2px solid #88daff;
+	
+}
+.index_txt_1
+{
+	text-align:center;
+	margin-top:1em;	
+}
+.index_txt_2
+{
+	text-align:center;
+	margin-top:0.5em;
+	margin-bottom:1em;
+	color:#FFF;
+	font-size:35px;
+}
+
+
+
+
+
+
+
+.index_menu_icon input[type="text"] 
+{
+ background-color:transparent;
+ 	outline:0;
+}
+.index_menu_icon input[type="password"] 
+{
+ background-color:transparent;
+}
+.login_btn
+{
+	color:#1b83ad;
+	font-weight:200;
+	
+	box-shadow:none;
+	margin-top:6em;
+	}
+.login_txt
+{
+	text-align:center;
+
+	color:#FFF;
+}
+.home_lk a:hover img
+{
+	background-image:url(../images/shop/home_hover.png);
+}
+.contact_lk a:hover img
+{
+	background-image:url(../images/shop/contact_hover.png);
+}
+.shop_lk a:hover img
+{
+	background-image:url(../images/shop/shop_hover.png);
+}
+.about_lk a:hover img
+{
+	background-image:url(../images/shop/about_hover.png);
+}
+#validation1
+{
+	color:#442125;
+	font-size:12px;
+}
+#validation2
+{
+	color:#442125;
+	font-size:12px;
+}
+#validation3
+{
+	color:#442125;
+	font-size:12px;
+}
+#validation4
+{
+	color:#442125;
+	font-size:12px;
+}
+#validation5
+{
+	color:#442125;
+	font-size:12px;
+}
+#validation1_enq
+{
+	color:#442125;
+	font-size:12px;
+}
+#validation2_enq
+{
+	color:#442125;
+	font-size:12px;
+}
+#validation3_enq
+{
+	color:#442125;
+	font-size:12px;
+}
+#validation4_enq
+{
+	color:#442125;
+	font-size:12px;
+}
+.cat_list
+{
+	width:100%;
+}
+.cat_list a img
+{
+	text-decoration:none;
+	border:1px solid #CCC;
+}
+.title_hed
+{
+	margin-left:20px;
+	font-family:comic;
+	text-transform:capitalize;
+	color:#442125;
+}
+.cat_img 
+{
+	float:left;
+	width:28%;
+	padding-left:2.3%;
+	padding-right:3%;
+}
+.cat_img img
+{
+	border:1px solid #CCC;
+	padding:5px;
+	border-radius:5px;
+}
+.radius
+{
+	border-radius:5px;
+}
+.con_des
+{
+	float:left;
+	padding:10px 10px 10px 10px;
+	}
+.home_icon
+{
+	background-image:url(../images/home/home.png);
+}
+.contact_icon
+{
+	background-image:url(../images/home/contact.png);
+}
+.clear
+{
+	clear:both;
+}
+.place_enq
+{
+	width:100%;
+}
+.place_enq img
+{
+	width:100%;
+}
+.place_con
+{
+	width:100%;
+}
+.con_address
+{
+	 width:100%;
+	 height:130px;
+	font-family:comic;
+}
+.fb_icon
+{
+	float:left;
+}
+.con_detial
+{
+	border:1px solid #CCC;
+	border-radius:5px;
+	margin-left:7em;
+	padding-left:5px;
+}
+.get_touch
+{
+	width:100%;
+	float:left;
+}
